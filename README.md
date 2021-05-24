@@ -2,7 +2,7 @@
 
 [View the live project here.](https://codeinstitute.net)
 
-This is the main marketing website for Code Institute. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential students and partners.
+This is the main website for World of Fitness, a website designed to help people get in shape through a short written program
 
 <h2 align="center"><img src="https://static.thenounproject.com/png/499189-200.png"></h2>
 
