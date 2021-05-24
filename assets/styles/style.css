@@ -1,0 +1,39 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Paytone+One&display=swap');
+
+/* Apply styles to all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    background-color: #1D7874;
+}
+
+/* Header styles */
+header {
+    /* positioning */
+    position: fixed;
+    width: 100%;
+    /* text */
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-family: 'Paytone One', sans-serif;
+    /* colors */
+    background-color: #071E22;
+}
+
+p {
+    margin-left: 13%;
+    margin-top: -50px;
+    position: fixed;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-icon {
+    width: 10%;
+    vertical-align: middle;
+    margin-right: 10px;
+}
