@@ -4,7 +4,7 @@
 
 This is the main website for World of Fitness, a website designed to help people get in shape through a short written program
 
-<h2 align="center"><img src="https://static.thenounproject.com/png/499189-200.png"></h2>
+<h2 align="center"><img src="assets/images/index_images/muscle-up.svg"></h2>
 
 ## User Experience (UX)
 
