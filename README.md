@@ -4,7 +4,7 @@
 
 This is the main website for World of Fitness, a website designed to help people get in shape through a short written program
 
-<h2 align="center"><img src="assets/images/index_images/muscle-up.svg"></h2>
+<h2 align="center"><img src="assets/images/index_images/muscle-up.svg" width="200px" height="200px"></h2>
 
 ## User Experience (UX)
 
