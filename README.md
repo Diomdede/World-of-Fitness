@@ -12,7 +12,7 @@ This is the main website for World of Fitness, a website designed to help people
 
     -   #### First Time Visitor Goals
 
-        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+        1. As a First Time Visitor, I want to understand the program & how I can apply it into my lifestyle.
         2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
         3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
 
