@@ -146,3 +146,24 @@ footer {
     width: 100%;
     height: 300px;
 }
+
+/* Circular Styling */
+.circular-contents {
+    position: relative;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.circle-div {
+    display: inline-block;
+    width: 3em;
+    height: 3em;
+    max-width: 3em;
+    min-width: 3em;
+    padding: 50px;
+    margin: 50px; 
+    border: 1px solid whitesmoke;
+    border-radius: 50%;
+}
