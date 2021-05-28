@@ -61,12 +61,12 @@ body {
 
 .main-nav-buttons li:hover { 
     transition: transform .2s;
-    transform: scale(1.1)
+    transform: scale(1.1);
 }
 
 .main-nav-buttons li:not(:hover) {
     transition: transform .2s;
-    transform: scale(1)
+    transform: scale(1);
 }
 
 .main-nav-buttons a:hover {
@@ -108,7 +108,14 @@ footer {
 }
 
 .social-media-list i:hover {
-    font-size: 165%;
+    transition: transform .2s;
+    transform: scale(1.1);
+    color: white;
+}
+
+.social-media-list i:not(:hover) {
+    transition: transform .2s;
+    transform: scale(1);
 }
 
 #social-media-div h2 {
@@ -124,7 +131,7 @@ footer {
     width: 100%;
     height: 150px;
     display: flex;
-    align-items: center;wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+    align-items: center;
     justify-content: center;
     border-bottom: 3px solid #333;
 }
@@ -141,14 +148,16 @@ footer {
     padding-bottom: 5px;
 }
 
-/* Goal Section styles */
-#main-goals {
+/* Global Section Style */
+.section-divider {
     width: 100%;
     height: 300px;
+    background-color: #1D7874;
 }
 
 /* Circular Styling */
 .circular-contents {
+    position: relative;
     color: white;
     text-align: center;
     padding-top: 20px;
@@ -157,12 +166,11 @@ footer {
 .circle-div {
     display: inline-block;
     background-color: rgba(255, 255, 255, .5);
-    width: 3em;
-    height: 3em;
-    max-width: 3em;
-    min-width: 3em;
+    width: 4em;
+    height: 4em;
     padding: 50px;
     margin: 50px; 
     border: 4px solid whitesmoke;
+    border-style: outset;
     border-radius: 50%;
 }
