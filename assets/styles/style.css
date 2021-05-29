@@ -148,13 +148,29 @@ footer {
     padding-bottom: 5px;
 }
 
-/* Global Section Style */
+/* Global Section Styling */
+body > section {
+    color: white;
+    height: fit-content;
+    width: 100%;
+    text-align: center;
+    overflow: auto;
+}
+
+body > h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Paytone One', sans-serif;
+    color: white;
+    font-size: 200%;
+    background-color: #071E22;
+    border-bottom: 3px solid #333;
+}
 
 #left-section-information {
     margin-left: 20px;
     width: 33%;
     float: left;
-    background-color: yellow;
     text-align: left;
 }
 
@@ -162,19 +178,23 @@ footer {
     margin-right: 20px;
     width: 33%;
     float: right;
-    background-color: yellow;
     text-align: right;
 }
 
-/* Global HR Header Styling */  
-body > h2 {
+#middle-section-information {
+    margin: 0 auto;
+    width: fit-content;
     text-align: center;
-    text-transform: uppercase;
+}
+
+p.section-information-paragraph {
+    color: rgba(255, 255, 255, .5);
     font-family: 'Raleway', sans-serif;
-    color: white;
-    font-size: 200%;
-    background-color: #071E22;
-    border-bottom: 3px solid #333;
+    font-style: italic;
+}
+
+.section-information-heading {
+    font-family: 'Paytone One', sans-serif;
 }
 
 /* Home Section Styling */
@@ -187,14 +207,6 @@ body > h2 {
 .banner-image {
     width: 100%;
     background: url('assets/images/index_images/backdrop/row-image.jpg') no-repeat center center;
-}
-
-/* Goal Section Styling */
-#main-goals {
-    height: fit-content;
-    width: 100%;
-    text-align: center;
-    overflow: auto;
 }
 
 /* Circular Styling */
@@ -243,13 +255,13 @@ body > h2 {
 }
 
 #circular-contents li h4:not(:hover) {
-    transition: transform 1s,
-                opacity 1s linear;
+    transition: transform .1s,
+                opacity .1s linear;
     opacity: 0;
 }
 
 #circular-contents li:hover > h4 {
-    transition: transform 1s,
-                opacity 1s linear;
+    transition: transform .1s,
+                opacity .1s linear;
     opacity: 1;
 }
