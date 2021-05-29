@@ -1,5 +1,5 @@
 /* Imports */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Paytone+One&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Paytone+One&family=Raleway&display=swap');
 
 /* Apply styles to all elements */
 * {
@@ -17,7 +17,7 @@ hr {
 /* Body styles */
 body {
     background-color: #679289;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 /* Navigation bar styles */
@@ -69,11 +69,13 @@ body {
 /* Title Icon styles */
 #main-title {
     display: flex;
-    background-color: red;
+    background: radial-gradient(circle, rgba(30,76,84,1) 0%, rgba(7,30,34,1) 100%, rgba(2,0,36,0));
     width: 100%;
     height: fit-content;
     text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
     color: whitesmoke;
+    border-bottom: 3px solid #333;
 }
 
 #main-title h1 {
@@ -99,7 +101,7 @@ footer {
 }
 
 .social-media-list {
-    background-color: #071E22;
+    background: radial-gradient(circle, rgba(30,76,84,1) 0%, rgba(7,30,34,1) 100%, rgba(2,0,36,0));
 }
 
 .social-media-list li {
@@ -132,7 +134,7 @@ footer {
 
 /* Welcome Section styles */
 #main-welcome {
-    background-color: #071E22;
+    background: radial-gradient(circle, rgba(30,76,84,1) 0%, rgba(7,30,34,1) 100%, rgba(2,0,36,0));
     color: whitesmoke;
     width: 100%;
     height: 150px;
@@ -143,6 +145,7 @@ footer {
 }
 
 #main-welcome h2 {
+    font-family: 'Paytone One', sans-serif;
     font-size: 300%;
 }
 
@@ -152,6 +155,7 @@ footer {
     align-items: center;
     justify-content: center;
     padding-bottom: 5px;
+    font-family: 'Oswald', sans-serif;
 }
 
 /* Global Section Styling */
@@ -166,10 +170,10 @@ body > section {
 body > h2 {
     text-align: center;
     text-transform: uppercase;
-    font-family: 'Paytone One', sans-serif;
+    font-family: 'Oswald', sans-serif;
     color: white;
     font-size: 200%;
-    background-color: #071E22;
+    background: radial-gradient(circle, rgba(30,76,84,1) 0%, rgba(7,30,34,1) 100%, rgba(2,0,36,0));
     border-bottom: 3px solid #333;
 }
 
