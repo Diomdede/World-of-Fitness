@@ -68,6 +68,8 @@ This is the main website for World of Fitness, a website designed to help people
     - GitHub is used to store the projects code after being pushed from Git.
 1. [Paint.net:](https://www.getpaint.net/download.html)
     - Paint.net was used to create the [wireframes](https://github.com/) during the design process.
+    [cssgradient](https://cssgradient.io/)
+    - cssgradient was used to create easy to use gradients that I can use for my header design.
 
 ## Testing
 

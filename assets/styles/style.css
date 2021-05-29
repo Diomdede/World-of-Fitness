@@ -28,13 +28,6 @@ body {
     text-align: center;
 }
 
-#main-nav h1 {
-    position: absolute;
-    text-transform: uppercase;
-    color: whitesmoke;
-    float: left;
-}
-
 .main-nav-buttons{
     list-style: none;
     display: inline-block;
@@ -74,9 +67,22 @@ body {
 }
 
 /* Title Icon styles */
+#main-title {
+    display: flex;
+    background-color: red;
+    width: 100%;
+    height: fit-content;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
+#main-title h1 {
+    text-align: left;
+}
+
 .main-icon {
-    display: inline-block;
     width: 50px;
+    padding: 20px;
 }
 
 /* Footer Social Media Icons & Styles */
@@ -167,21 +173,21 @@ body > h2 {
     border-bottom: 3px solid #333;
 }
 
-#left-section-information {
+.left-section-information {
     margin-left: 20px;
     width: 33%;
     float: left;
     text-align: left;
 }
 
-#right-section-information {
+.right-section-information {
     margin-right: 20px;
     width: 33%;
     float: right;
     text-align: right;
 }
 
-#middle-section-information {
+.middle-section-information {
     margin: 0 auto;
     width: fit-content;
     text-align: center;
@@ -210,13 +216,13 @@ p.section-information-paragraph {
 }
 
 /* Circular Styling */
-#circular-contents {
+.circular-contents {
     color: white;
     padding-top: 20px;
     padding-bottom: 20px;
     margin-left: -25px;
 }
-#circular-contents li h4 {
+.circular-contents li h4 {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 120%;
@@ -226,7 +232,7 @@ p.section-information-paragraph {
     opacity: 0;
 }
 
-#circular-contents li {
+.circular-contents li {
     background-color: rgba(255, 255, 255, .5);
     width: 12em;
     height: 12em;
@@ -237,14 +243,14 @@ p.section-information-paragraph {
     border-radius: 50%;
 }
 
-#circular-contents li:hover {
+.circular-contents li:hover {
     transition: transform 1s,
                 border 5s linear;
     transform: scale(1.01);
     border: 4px solid rgba(255, 255, 255, .8);
 }
 
-#circular-contents li:not(:hover) {
+.circular-contents li:not(:hover) {
     transition: transform 1s,
                 border 5s linear,
                 opacity 1s linear;
@@ -254,13 +260,13 @@ p.section-information-paragraph {
     opacity: 1;
 }
 
-#circular-contents li h4:not(:hover) {
+.circular-contents li h4:not(:hover) {
     transition: transform .1s,
                 opacity .1s linear;
     opacity: 0;
 }
 
-#circular-contents li:hover > h4 {
+.circular-contents li:hover > h4 {
     transition: transform .1s,
                 opacity .1s linear;
     opacity: 1;
