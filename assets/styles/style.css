@@ -204,6 +204,7 @@ body > h2 {
 .left-section-information {
     margin-left: 20px;
     width: 33%;
+    height: fit-content;
     float: left;
     text-align: left;
 }
@@ -217,7 +218,7 @@ body > h2 {
 
 .middle-section-information {
     margin: 0 auto;
-    width: fit-content;
+    width: 90%;
     text-align: center;
 }
 
@@ -229,6 +230,19 @@ p.section-information-paragraph {
 
 .section-information-heading {
     font-family: 'Paytone One', sans-serif;
+    text-decoration: underline;
+    width: 100%;
+    display: inline-block;
+}
+
+.right-section-wrapping > h2 {
+    width: 200px;
+    margin-left: -65px;
+}
+
+#section-information-wrapping {
+    display: block;
+    width: 100%;
 }
 
 /* Home Section Styling */
@@ -283,12 +297,11 @@ p.section-information-paragraph {
     background-color: rgba(255, 255, 255, .5);
     width: 12em;
     height: 12em;
-    margin-left: 325px;
-    margin-right: 300px;
     display: inline-block;
     border: 4px solid whitesmoke;
     border-style: outset;
     border-radius: 50%;
+    margin-top: 20px;
 }
 
 .circular-contents li:hover {
@@ -344,6 +357,9 @@ p.section-information-paragraph {
     .main-nav-buttons li{
         display: block;
     }
+    .section-information-heading {
+        font-size: 90%;
+    }
 }
 
 /* Extra small devices 600px + */
@@ -355,5 +371,11 @@ p.section-information-paragraph {
     }
     #contact-container {
         margin-left: 10px;
+    }
+    .section-information-heading {
+        font-size: 100%;
+    }
+    .section-information-heading {
+        margin-top: 10px;
     }
 }
