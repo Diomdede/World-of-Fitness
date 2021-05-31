@@ -332,6 +332,16 @@ p.section-information-paragraph {
 table {
     border: 3px solid white;
     margin: 20px;
+    text-align: center;
+    border-spacing: 5px;
+}
+
+.right-table {
+    float: right;
+}
+
+.left-table {
+    float: left;
 }
 
 #banner-info {
