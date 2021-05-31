@@ -159,6 +159,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   Large amounts of testing was done to ensure the navigation buttons links to the corresponding sections
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
+[View the responsive here.](https://www.responsinator.com/?url=https%3A%2F%2Fdiomdede.github.io%2FWorld-of-Fitness%2F)
+
 ### Known Bugs
 
 -   There is no known bugs
