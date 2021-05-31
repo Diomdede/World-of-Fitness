@@ -349,19 +349,19 @@ th {
     float: left;
 }
 
-.left-excerise-wrapping {
+.left-excerise-wrapping,  .right-excerise-wrapping{
     text-align: center;
-    display: inline;
+    display: block;
 }
 
-.right-excerise-wrapping {
-    text-align: center;
-    display: inline;
+.right-excerise-wrapping > p, .left-excerise-wrapping > p {
+    width: max-content;
+    display: inline-block;
 }
 
 #banner-info {
     display: flex;
-    background-color: rgba(30,76,84,1);
+    background-color: rgba(30,76,84,1git);
     color: white;
     width: fit-content;
     margin-top: 150px;
