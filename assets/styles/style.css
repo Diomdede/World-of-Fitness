@@ -17,7 +17,7 @@ hr {
 /* Body styles */
 body {
     background-color: #679289;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
 /* Navigation bar styles */
@@ -81,28 +81,21 @@ body {
 
 #main-title h1 {
     text-align: left;
-}
-
-.main-icon {
-    width: 50px;
-    padding: 20px;
+    font-size: 300%;
 }
 
 /* Footer Social Media Icons & Styles */
 
 footer {
     color: #D7F9FF;
-    background-color: #071E22;
+    background: radial-gradient(circle, rgba(30,76,84,1) 0%, rgba(7,30,34,1) 100%, rgba(2,0,36,0));
+    font-family: 'Oswald', sans-serif;
 }
 
 #social-media-div {
     width: 100%;
     clear: both;
     text-align: center;
-}
-
-.social-media-list {
-    background: radial-gradient(circle, rgba(30,76,84,1) 0%, rgba(7,30,34,1) 100%, rgba(2,0,36,0));
 }
 
 .social-media-list li {
@@ -129,16 +122,16 @@ footer {
 
 #social-media-div h2 {
     text-transform: uppercase;
-    font-size: 90%;
+    font-size: 95%;
     padding-top: 20px;
 }
 
 /* Contact Form */
 #contact-container {
     font-family: 'Oswald', sans-serif;
-    background: radial-gradient(circle, rgba(30,76,84,1) 0%, rgba(7,30,34,1) 100%, rgba(2,0,36,0));
     height: fit-content;
     padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .contact-form-container {
@@ -150,28 +143,57 @@ footer {
     text-align: center;
 }
 
-#contact-form input, #contact-form button {
+#contact-container > p {
+    font-size: 90%;
+    opacity: 0.5;
+}
+
+#contact-container h3 {
+    font-size: 150%;
+    margin-bottom: 5px;
+}
+
+#contact-form input, #contact-form button, #contact-form textarea {
     display: block;
     margin: 5px;
 }
 
-#contact-form input[type=text] {
+#contact-form input, #contact-form textarea {
+    font-family: 'Oswald', sans-serif;
+    border: 1px solid #333;
+    box-sizing: border-box;
+    padding: 12px 20px;
+}
+
+#contact-form input:focus, #contact-form textarea:focus {
+    background-color: cadetblue;
+}
+
+#contact-form textarea {
+    transition: padding-bottom 0.4s ease-in-out;
+    resize: none;
+}
+
+#contact-form textarea:focus {
     padding-bottom: 50px;
 }
 
 #contact-form button {
     background-color: cadetblue;
     padding: 2px;
-    margin-left: 33%;
+    margin-left: 35%;
 }
 
 #contact-form button:hover {
     padding: 1px;
 }
 
+#contact-form label {
+    font-size: 90%;
+}
+
 #contact-form label, #contact-form button {
     text-transform: uppercase;
-    font-family: 'Paytone One', sans-serif;
     color: #D7F9FF;
 }
 
@@ -239,23 +261,30 @@ body > h2 {
     margin: 0 auto;
     width: 90%;
     text-align: center;
+    padding-bottom: 20px;
+    display: flex;
 }
 
 p.section-information-paragraph {
-    color: rgba(255, 255, 255, .5);
-    font-family: 'Raleway', sans-serif;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Oswald', sans-serif;
     font-style: italic;
 }
 
 .section-information-heading {
     font-family: 'Paytone One', sans-serif;
-    text-decoration: underline;
-    width: 100%;
+    width: max-content;
+    height: max-content;
     display: inline-block;
+    background-color: cadetblue;
+    border: 2px solid white;
+    padding: 4px;
+    margin-bottom: 5px;
 }
 
 .right-section-wrapping > h2 {
-    width: 200px;
+    width: max-content;
+    height: max-content;
     margin-left: -65px;
 }
 
@@ -279,6 +308,30 @@ p.section-information-paragraph {
     background-position: bottom;
     background-size: cover;
     overflow: hidden;
+}
+
+/* Calories Section Styling */
+.tdee-calc {
+    display: flex;
+    background-color: rgba(30,76,84,1);
+    color: white;
+    width: fit-content;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    transition: padding-left 0.1s ease-in-out,
+                padding-right 0.1s ease-in-out;
+}
+
+.tdee-calc:hover {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Excerise Section Styling */
+table {
+    border: 3px solid white;
+    margin: 20px;
 }
 
 #banner-info {
