@@ -18,22 +18,22 @@ This is the main website for World of Fitness, a website designed to help people
 
     -   #### Returning Visitor Goals
 
-        1. As a Returning Visitor, I want to find information about coding challenges.
-        2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
+        1. As a Returning Visitor, I want to double check the workout plan or maybe copy and paste it to a sticky note or notepad document for easier use.
+        2. As a Returning Visitor, I want to find the best way to get in contact with the creators of the program for feedback or help with the program.
         3. As a Returning Visitor, I want to find community links.
 
     -   #### Frequent User Goals
-        1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
-        2. As a Frequent User, I want to check to see if there are any new blog posts.
-        3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+        1. As a Frequent User, I want to check to see if there are any changes to the program or information sections.
+        2. As a Frequent User, I want to check if there is any additions to the excerise section as it is the main program that you follow.
+        3. As a Frequent User, I want to send feedback or ask questions regarding the program & their progress, they would use the contact form in the footer.
 
 -   ### Design
     -   #### Colour Scheme
-        -   The two main colours used are Code Insititue red, and white.
+        -   The two main colors used in the website is a teal green, dark navy blue & white.
     -   #### Typography
-        -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+        -   The Oswald font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Oswald is a tight & modern easy to read font that fits with the theme of the website and complements the color scheme. Paytone One is also used for some headers & titles as it is a bold & dominant font.
     -   #### Imagery
-        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+        -   The main banner image is a man lifting weights to represent fitness & excerise, it also complements the color scheme with a deep red tone.
 
 *   ### Wireframes
 
