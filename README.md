@@ -1,6 +1,6 @@
 <h1 align="center">World of Fitness</h1>
 
-[View the live project here.](https://codeinstitute.net)
+[View the live project here.](https://diomdede.github.io/milestone_website_one/)
 
 This is the main website for World of Fitness, a website designed to help people get in shape through a short written program
 
@@ -136,16 +136,14 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Further Testing
 
--   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
--   A large amount of testing was done to ensure that all pages were linking correctly.
+-   The Website was tested on Google Chrome, Opera, Microsoft Edge.
+-   The website was viewed on a variety of devices using responinator, such as iPhone 6-8, iPad, Desktop.
+-   Large amounts of testing was done to ensure the navigation linked to the correct section
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Known Bugs
 
--   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
-    -   A white gap can be seen to the right of the footer and navigation bar as a result.
--   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
+-   There is no known bugs
 
 ## Deployment
 
@@ -197,9 +195,11 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ## Credits
 
+- [https://tdeecalculator.net/] was used as a method of gaining the users daily calories
+
 ### Code
 
-- [https://tdeecalculator.net/] was used as a method of gaining the users daily calories
+- All code was written by the developer.
 
 ### Content
 
@@ -207,7 +207,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Media
 
--   All Images were created by the developer.
+-   [https://www.glogym.co.uk/wp-content/uploads/2016/01/red-gym-banner.jpg] was used for the main banner image.
 
 ### Acknowledgements
 
