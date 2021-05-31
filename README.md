@@ -101,44 +101,38 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   #### Returning Visitor Goals
 
-    1. As a Returning Visitor, I want to find the new programming challenges or hackathons.
+    1. As a Returning Visitor, I would want to check if there is any
 
         1. These are clearly shown in the banner message.
         2. They will be directed to a page with another hero image and call to action.
 
-    2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-
-        1. The navigation bar clearly highlights the "Contact Us" Page.
-        2. Here they can fill out the form on the page or are told that alternatively they can message the organisation on social media.
-        3. The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's email.
+    2. As a Returning Visitor, I want to find the best way to get in contact with the program creators with any questions I may have.
+        1. The footer clearly highlights the "Contact Us" Page.
+        2. Here they can fill out the form on the page or are told that they can also get in touch on socials.
+        3. The footer contains links to the creators Facebook, Twitter and Instagram page.
         4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
-        5. The email button is set up to automatically open up your email app and autofill there email address in the "To" section.
-
-    3. As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
-        1. The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
-        2. Alternatively, the user can scroll to the bottom of the Home page to find the Facebook Group redirect card and can easily join by clicking the "Join Now!" button which like any external link, will open in a new tab to ensure they can get back to the website easily.
-        3. If the user is on the "Our Favourites" page they will also be greeted with a call to action button to invite the user to the Facebook group. The user is incentivized as they are told there is a weekly favourite product posted in the group.
+        5. The contact form is easily set up so you just input your email and message then click submit.
 
 -   #### Frequent User Goals
 
-    1. As a Frequent User, I want to check if there is any updates to the workout plan
+    1. As a Frequent User, I want to check if there is any updates to the workout plan or information
 
         1. The user would already know where to look for the plan and would click the excerise button on the navigational link
 
     2. As a Frequent User, I may want to request some help with my workout plan or general questions
 
-        1. The user would scr
+        1. The user would scroll to the bottom with a persistant footer
+        2. The user would easily find the 'contact us' page as it is hinted at the bottom of the page
+        3. The form is easy to recognize and find
 
-    3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
-        1. At the bottom of every page their is a footer which content is consistent throughout all pages.
-        2. To the right hand side of the footer the user can see "Subscribe to our Newsletter" and are prompted to Enter their email address.
-        3. There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
+    3. As a Frequest User, I may want to go back and find out or refresh my memory on information
+        1. The user could easily find information due to categories and formatted layout(s).
 
 ### Further Testing
 
 -   The Website was tested on Google Chrome, Opera, Microsoft Edge.
 -   The website was viewed on a variety of devices using responinator, such as iPhone 6-8, iPad, Desktop.
--   Large amounts of testing was done to ensure the navigation linked to the correct section
+-   Large amounts of testing was done to ensure the navigation buttons links to the corresponding sections
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Known Bugs
