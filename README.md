@@ -1,6 +1,6 @@
 <h1 align="center">World of Fitness</h1>
 
-[View the live project here.](https://diomdede.github.io/milestone_website_one/)
+[View the live project here.](https://diomdede.github.io/World-of-Fitness/)
 
 This is the main website for World of Fitness, a website designed to help people get in shape through a short written program
 
