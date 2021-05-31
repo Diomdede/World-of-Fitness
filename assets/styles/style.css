@@ -135,25 +135,44 @@ footer {
 
 /* Contact Form */
 #contact-container {
+    font-family: 'Oswald', sans-serif;
+    background: radial-gradient(circle, rgba(30,76,84,1) 0%, rgba(7,30,34,1) 100%, rgba(2,0,36,0));
+    height: fit-content;
+    padding-bottom: 10px;
+}
+
+.contact-form-container {
+    display: flex;
+}
+
+#contact-container > p, #contact-container h3 {
+    text-transform: uppercase;
     text-align: center;
+}
+
+#contact-form input, #contact-form button {
     display: block;
-    font-family: 'Oswald', sans-serif;
-    padding: 10px;
+    margin: 5px;
 }
 
-#contact-container > p {
+#contact-form input[type=text] {
+    padding-bottom: 50px;
+}
+
+#contact-form button {
+    background-color: cadetblue;
+    padding: 2px;
+    margin-left: 33%;
+}
+
+#contact-form button:hover {
+    padding: 1px;
+}
+
+#contact-form label, #contact-form button {
     text-transform: uppercase;
-}
-
-#contact-container form > label, input[type=submit] {
-    text-transform: uppercase;
-}
-
-input[type=submit], input[type=email], input[type=text] {
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-    padding-left: 5px;
-    padding-right: 5px;
+    font-family: 'Paytone One', sans-serif;
+    color: #D7F9FF;
 }
 
 /* Welcome Section styles */
