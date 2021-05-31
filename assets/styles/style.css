@@ -475,4 +475,17 @@ th {
     .section-information-heading {
         margin-top: 10px;
     }
+    .right-excerise-wrapping, .left-excerise-wrapping {
+        display: block;
+    }
+    .right-excerise-wrapping > p, .left-excerise-wrapping > p {
+        width: fit-content;
+        display: inline-block;
+    }
+    .right-excerise-wrapping > h2, .left-excerise-wrapping > h2 {
+        display: flex;
+    }
+    .right-excerise-wrapping > h2 {
+        float: right;
+    }
 }
