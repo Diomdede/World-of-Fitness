@@ -37,11 +37,21 @@ This is the main website for World of Fitness, a website designed to help people
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/)
+    - [Mobile]
+        1. Page One
+        (assets/images/index_images/wireframe/pageone_finished.jpg)
+        2. Page Two
+        (assets/images/index_images/wireframe/pagetwo_finished.jpg)
+        3. Page Three
+        (assets/images/index_images/wireframe/pagethree_finished.jpg)
+    - [Desktop]
+        1. Page One
+        (assets/images/index_images/wireframe/pageonedesktop_finished.png)
+        2. Page Two
+        (assets/images/index_images/wireframe/pagetwodesktop_finished.jpg)
+        3. Page Three
+        (assets/images/index_images/wireframe/pagethreedesktop_finished.jpg)
 
-    -   Mobile Wireframe - [View](https://github.com/)
-
-    -   Contact Us Page Wireframe - [View](https://github.com/)
 
 ## Features
 
@@ -82,22 +92,28 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   #### First Time Visitor Goals
 
-    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+    1. As a First Time Visitor, I want to easily understand the program and what it entails
 
-        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Learn More" Call to action button.
-        2. The main points are made immediately with the hero image
-        3. The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to learn more about the organisation.
+        1. Upon entering the site the users are greeted with a motto and a quick description of what the program aims to do.
+        2. The main points are made immediately with the motto and simple points such as Want to learn more?
+        3. The user has two options, click the navigation bars which are labeled correctly, or scroll down and click 'Learn More' which takes them to the start of the program.
 
     2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
 
-        1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
-        2. At the bottom of the first 3 pages there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
+        1. The site has been designed to be easy on the eyes with a clear nice color scheme.
+        2. The navigation bar is simple and has icons that corresponds the section it takes them too, further making it easier to find what they need.
         3. On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
+        4. The site is one html page that navigates through taking the user to sections instead of new pages which lowers their waiting time to get them where they need.
 
-    3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
-        1. Once the new visitor has read the About Us and What We Do text, they will notice the Why We are Loved So Much section.
-        2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
-        3. At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.
+    3. As a First Time Visitor, I would want to check their popularity and see if the program is working for others before trying it.
+        1. I could check their socials through the footer which is presistant across the site
+        2. It links to creators Facebook, Twitter, Youtube, Instagram
+        3. I could check others results of the program through these communities and find out more information on the program through socials
+
+    4. As a First Time Visitor, I would want to check the details on what the program achieves
+        1. I could easily check this as there is a navigation button labeled 'Goals'
+        2. The navigation is at the header of the screen so it will be easy to locate
+        3. The goals section explains what the program will help you achieve
 
 -   #### Returning Visitor Goals
 
@@ -112,6 +128,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         3. The footer contains links to the creators Facebook, Twitter and Instagram page.
         4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
         5. The contact form is easily set up so you just input your email and message then click submit.
+
+    3. As a Returning Visitor, I may want to find our facebook community and get in contact with other members following the program
+        1. The footer clearly highlights the facebook page via link.
+        2. It opens a new tab directly to the facebook page so they can follow with ease
 
 -   #### Frequent User Goals
 
