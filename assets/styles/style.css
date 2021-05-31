@@ -288,7 +288,7 @@ p.section-information-paragraph {
     margin-left: -65px;
 }
 
-#section-information-wrapping {
+.section-information-wrapping {
     display: block;
     width: 100%;
 }
@@ -329,11 +329,16 @@ p.section-information-paragraph {
 }
 
 /* Excerise Section Styling */
-table {
+table, th {
     border: 3px solid white;
     margin: 20px;
     text-align: center;
     border-spacing: 5px;
+    width: 100%;
+}
+
+th {
+    border: 3px dashed whitesmoke;
 }
 
 .right-table {
@@ -342,6 +347,16 @@ table {
 
 .left-table {
     float: left;
+}
+
+.left-excerise-wrapping {
+    text-align: center;
+    display: inline;
+}
+
+.right-excerise-wrapping {
+    text-align: center;
+    display: inline;
 }
 
 #banner-info {
