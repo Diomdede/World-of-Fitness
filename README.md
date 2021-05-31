@@ -39,18 +39,19 @@ This is the main website for World of Fitness, a website designed to help people
 
     - [Mobile]
         1. Page One
-        (assets/images/index_images/wireframe/pageone_finished.jpg)
+        <img src="assets/images/index_images/wireframe/pageone_finished.jpg" width="200px" height="200px">
         2. Page Two
-        (assets/images/index_images/wireframe/pagetwo_finished.jpg)
+        <img src="assets/images/index_images/wireframe/pagetwo_finished.jpg" width="200px" height="200px">
         3. Page Three
-        (assets/images/index_images/wireframe/pagethree_finished.jpg)
+        <img src="assets/images/index_images/wireframe/pagethree_finished.jpg" width="200px" height="200px">
+
     - [Desktop]
         1. Page One
-        (assets/images/index_images/wireframe/pageonedesktop_finished.png)
+        <img src="assets/images/index_images/wireframe/pageonedesktop_finished.png" width="200px" height="200px">
         2. Page Two
-        (assets/images/index_images/wireframe/pagetwodesktop_finished.jpg)
+        <img src="assets/images/index_images/wireframe/pagetwodesktop_finished.jpg" width="200px" height="200px">
         3. Page Three
-        (assets/images/index_images/wireframe/pagethreedesktop_finished.jpg)
+        <img src="assets/images/index_images/wireframe/pagethreedesktop_finished.jpg" width="200px" height="200px">
 
 
 ## Features
